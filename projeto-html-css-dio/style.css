@@ -1,0 +1,156 @@
+.roboto-thin {
+    font-family: "Roboto", serif;
+    font-weight: 100;
+    font-style: normal;
+  }
+  
+  .roboto-light {
+    font-family: "Roboto", serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  .roboto-regular {
+    font-family: "Roboto", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .roboto-medium {
+    font-family: "Roboto", serif;
+    font-weight: 500;
+    font-style: normal;
+  }
+  
+  .roboto-bold {
+    font-family: "Roboto", serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+
+*{
+    text-align: center;
+    margin: 0 auto;
+
+}
+
+.banner{
+    background-image: url(assets/images/banner.png), linear-gradient(#000, #0c2835, #000);
+}
+
+h1 {
+    font-size: 40px;
+    color: #33A8DB;
+}
+
+.banner p {
+    font-size: 20px;
+    color: white;
+    width: 510px;
+    height: 46px;
+    text-align: center;
+    padding: 19px 91px 19px 91px ;
+}
+
+.banner button {
+    width: 300px;
+    height: 53px;
+    background: transparent;
+    color: #33A8DB;
+    border: 2px solid #33A8DB;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+#course-content {
+    padding-top: 70px;
+    padding-bottom: 75px;
+    background: #000;
+}
+
+#course-content h2{
+    font-size: 32px;
+    color: #33A8DB;
+    padding-bottom: 20px;
+}
+
+#course-content p {
+    width: 680px;
+    height: 38px;
+    font-size: 16px;
+    color: white;
+}
+
+.modules-list div{
+    width: 495px;
+    height: 30px;
+    border-radius: 57px;
+    border: 1px solid #33A8DB;
+    margin-top: 15px;
+    padding-top: 20px;
+    color: white;
+}
+
+.modules-list span{
+    color: #33A8DB;
+}
+
+.modules-list .module {
+    background: #252525;
+}
+
+#transform-world {
+    background-size: cover;
+    background-image: url(assets/images/woman-code.png);
+    background-attachment: fixed;
+    border-top: 1px solid #33a8db80;
+    border-bottom: 1px solid #33a8db80;
+    padding: 200px;
+    color: #fff;
+}
+
+#transform-world p{
+    width: 300px;
+    height: 141px;
+    padding-right: 900px;
+    font-size: 40px;
+    text-shadow: 3px 2px #33A8DB;
+    text-transform: lowercase;
+}
+
+#professional-challenges {
+    padding-top: 40px;
+    padding-bottom: 70px;
+    background: #000;
+}
+
+#professional-challenges h2{
+    color: #33A8DB;
+    font-size: 32px;
+}
+
+#professional-challenges p{
+    color: #fff;
+    width: 700px;
+    height: 76px;
+    font-size: 16px;
+}
+
+footer {
+    background: linear-gradient(#000000, #0c2835);
+}
+
+footer p{
+    color: #fff ;
+}
+
+footer a{
+    text-decoration: none;
+}
+
+/* o que falta para colocar aqui
+fonte de texto: Raleway no Google fonts
+Como espaçar o texto
+escurecer a imagem da muie
+*/
